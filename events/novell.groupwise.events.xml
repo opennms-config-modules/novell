@@ -1,4 +1,4 @@
-<events xmlns="http://xmlns.opennms.org/xsd/eventconf">
+<events xmlns="https://xmlns.opennms.org/xsd/eventconf">
     <!-- Start of auto generated data from MIB: GWAPIMIB -->
     <event>
         <mask>
@@ -21,7 +21,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwAPITrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwAPIGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwAPIStartTrap trap received ngwAPITrapTime=%parm[#1]%
-            ngwAPIGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwAPIGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -45,7 +46,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwAPITrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwAPIGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwAPIStopTrap trap received ngwAPITrapTime=%parm[#1]%
-            ngwAPIGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwAPIGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -69,7 +71,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwAPITrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwAPIGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwAPIRestartTrap trap received ngwAPITrapTime=%parm[#1]%
-            ngwAPIGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwAPIGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -93,7 +96,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwAPITrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwAPIGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwAPIGroupWiseLinkTrap trap received
-            ngwAPITrapTime=%parm[#1]% ngwAPIGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwAPITrapTime=%parm[#1]% ngwAPIGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -117,7 +121,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwAPITrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwAPIGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwAPIFgnLinkTrap trap received ngwAPITrapTime=%parm[#1]%
-            ngwAPIGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwAPIGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <!-- End of auto generated data from MIB: GWAPIMIB -->
@@ -143,7 +148,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;adaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: adaStartTrap trap received adaTrapTime=%parm[#1]%
-            adaName=%parm[#2]% adaGUID=%parm[#3]%&lt;/p&gt;</logmsg>
+            adaName=%parm[#2]% adaGUID=%parm[#3]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -167,7 +173,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;adaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: adaShutdownTrap trap received adaTrapTime=%parm[#1]%
-            adaName=%parm[#2]% adaGUID=%parm[#3]%&lt;/p&gt;</logmsg>
+            adaName=%parm[#2]% adaGUID=%parm[#3]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -191,7 +198,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;adaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaFacilityLink&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaFacilityName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#4]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: adaFacilityBlockedTrap trap received adaTrapTime=%parm[#1]%
-            adaFacilityLink=%parm[#2]% adaFacilityName=%parm[#3]% adaGUID=%parm[#4]%&lt;/p&gt;</logmsg>
+            adaFacilityLink=%parm[#2]% adaFacilityName=%parm[#3]% adaGUID=%parm[#4]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -215,7 +223,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;adaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaFacilityLink&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaFacilityName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#4]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: adaFacilityOpenTrap trap received adaTrapTime=%parm[#1]%
-            adaFacilityLink=%parm[#2]% adaFacilityName=%parm[#3]% adaGUID=%parm[#4]%&lt;/p&gt;</logmsg>
+            adaFacilityLink=%parm[#2]% adaFacilityName=%parm[#3]% adaGUID=%parm[#4]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -239,7 +248,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;adaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaRecoveredDB&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: adaDBRecoverOkay trap received adaTrapTime=%parm[#1]%
-            adaRecoveredDB=%parm[#2]% adaGUID=%parm[#3]%&lt;/p&gt;</logmsg>
+            adaRecoveredDB=%parm[#2]% adaGUID=%parm[#3]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -263,7 +273,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;adaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaRecoveredDB&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: adaDBRecoverError trap received adaTrapTime=%parm[#1]%
-            adaRecoveredDB=%parm[#2]% adaGUID=%parm[#3]%&lt;/p&gt;</logmsg>
+            adaRecoveredDB=%parm[#2]% adaGUID=%parm[#3]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -287,7 +298,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;adaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaRecoveredDB&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: adaDBRecoverWarn trap received adaTrapTime=%parm[#1]%
-            adaRecoveredDB=%parm[#2]% adaGUID=%parm[#3]%&lt;/p&gt;</logmsg>
+            adaRecoveredDB=%parm[#2]% adaGUID=%parm[#3]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -311,7 +323,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;adaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaFacilityName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;adaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: adaRestartTrap trap received adaTrapTime=%parm[#1]%
-            adaFacilityName=%parm[#2]% adaGUID=%parm[#3]%&lt;/p&gt;</logmsg>
+            adaFacilityName=%parm[#2]% adaGUID=%parm[#3]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <!-- End of auto generated data from MIB: GWADA-MIB -->
@@ -337,7 +350,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwasyncTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwasyncGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwasyncStartTrap trap received ngwasyncTrapTime=%parm[#1]%
-            ngwasyncGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwasyncGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -361,7 +375,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwasyncTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwasyncGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwasyncStopTrap trap received ngwasyncTrapTime=%parm[#1]%
-            ngwasyncGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwasyncGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -385,7 +400,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwasyncTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwasyncGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwasyncRestartTrap trap received
-            ngwasyncTrapTime=%parm[#1]% ngwasyncGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwasyncTrapTime=%parm[#1]% ngwasyncGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -409,7 +425,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwasyncTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwasyncGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwasyncGroupWiseLinkTrap trap received
-            ngwasyncTrapTime=%parm[#1]% ngwasyncGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwasyncTrapTime=%parm[#1]% ngwasyncGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <!-- End of auto generated data from MIB: NGWASYNC -->
@@ -435,7 +452,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiaStartTrap trap received gwiaTrapTime=%parm[#1]%
-            gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -459,7 +477,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiaStopTrap trap received gwiaTrapTime=%parm[#1]%
-            gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -483,7 +502,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiaRestartTrap trap received gwiaTrapTime=%parm[#1]%
-            gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -507,7 +527,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiaGroupWiseLinkTrap trap received gwiaTrapTime=%parm[#1]%
-            gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -531,7 +552,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiaMovedToProbTrap trap received gwiaTrapTime=%parm[#1]%
-            gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -555,7 +577,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiaWpcsoutThreshTrap trap received gwiaTrapTime=%parm[#1]%
-            gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -579,7 +602,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiaWpcsinThreshTrap trap received gwiaTrapTime=%parm[#1]%
-            gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -604,7 +628,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiaGwholdThreshTrap trap received gwiaTrapTime=%parm[#1]%
-            gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -629,7 +654,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiaGwprobThreshTrap trap received gwiaTrapTime=%parm[#1]%
-            gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -653,7 +679,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiaInSizeThreshTrap trap received gwiaTrapTime=%parm[#1]%
-            gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -677,7 +704,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiaOutSizeThreshTrap trap received gwiaTrapTime=%parm[#1]%
-            gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -701,7 +729,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiasmtpReadErrorTrap trap received gwiaTrapTime=%parm[#1]%
-            gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -725,7 +754,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiasmtpWriteErrorTrap trap received
-            gwiaTrapTime=%parm[#1]% gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaTrapTime=%parm[#1]% gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -750,7 +780,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiasmtpSendThreshTrap trap received
-            gwiaTrapTime=%parm[#1]% gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaTrapTime=%parm[#1]% gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -775,7 +806,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiasmtpReceiveThreshTrap trap received
-            gwiaTrapTime=%parm[#1]% gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaTrapTime=%parm[#1]% gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -800,7 +832,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwiaGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwiasmtpDeferThreshTrap trap received
-            gwiaTrapTime=%parm[#1]% gwiaGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwiaTrapTime=%parm[#1]% gwiaGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <!-- End of auto generated data from MIB: GWIAMIB -->
@@ -826,7 +859,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: mtaStartupTrap trap received mtaTrapTime=%parm[#1]%
-            mtaServerName=%parm[#2]% mtaGUID=%parm[#3]%&lt;/p&gt;</logmsg>
+            mtaServerName=%parm[#2]% mtaGUID=%parm[#3]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -850,7 +884,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaDomainName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#4]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: mtaShutdownTrap trap received mtaTrapTime=%parm[#1]%
-            mtaServerName=%parm[#2]% mtaDomainName=%parm[#3]% mtaGUID=%parm[#4]%&lt;/p&gt;</logmsg>
+            mtaServerName=%parm[#2]% mtaDomainName=%parm[#3]% mtaGUID=%parm[#4]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -874,7 +909,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaDomainName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#4]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: mtaRestartTrap trap received mtaTrapTime=%parm[#1]%
-            mtaServerName=%parm[#2]% mtaDomainName=%parm[#3]% mtaGUID=%parm[#4]%&lt;/p&gt;</logmsg>
+            mtaServerName=%parm[#2]% mtaDomainName=%parm[#3]% mtaGUID=%parm[#4]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -899,7 +935,8 @@
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: mtaConfigurationLoadedTrap trap received
             mtaTrapTime=%parm[#1]% mtaServerName=%parm[#2]% mtaDomainName=%parm[#3]%
-            mtaGUID=%parm[#4]%&lt;/p&gt;</logmsg>
+            mtaGUID=%parm[#4]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -924,7 +961,8 @@
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: mtaFacilityClosedTrap trap received mtaTrapTime=%parm[#1]%
             mtaServerName=%parm[#2]% mtaDomainName=%parm[#3]% mtaFacilityName=%parm[#4]% mtaFacilityLink=%parm[#5]%
-            mtaClosureReason=%parm[#6]% mtaGUID=%parm[#7]%&lt;/p&gt;</logmsg>
+            mtaClosureReason=%parm[#6]% mtaGUID=%parm[#7]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -949,7 +987,8 @@
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: mtaFacilityOpenedTrap trap received mtaTrapTime=%parm[#1]%
             mtaServerName=%parm[#2]% mtaDomainName=%parm[#3]% mtaFacilityName=%parm[#4]%
-            mtaGUID=%parm[#5]%&lt;/p&gt;</logmsg>
+            mtaGUID=%parm[#5]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -973,7 +1012,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaDomainName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#4]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: mtaBackupOnlineTrap trap received mtaTrapTime=%parm[#1]%
-            mtaServerName=%parm[#2]% mtaDomainName=%parm[#3]% mtaGUID=%parm[#4]%&lt;/p&gt;</logmsg>
+            mtaServerName=%parm[#2]% mtaDomainName=%parm[#3]% mtaGUID=%parm[#4]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -997,7 +1037,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaDomainName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mtaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#4]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: mtaBackupStandbyTrap trap received mtaTrapTime=%parm[#1]%
-            mtaServerName=%parm[#2]% mtaDomainName=%parm[#3]% mtaGUID=%parm[#4]%&lt;/p&gt;</logmsg>
+            mtaServerName=%parm[#2]% mtaDomainName=%parm[#3]% mtaGUID=%parm[#4]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <!-- End of auto generated data from MIB: GWMTA-MIB -->
@@ -1023,7 +1064,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwovvmTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwovvmGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwovvmStartTrap trap received ngwovvmTrapTime=%parm[#1]%
-            ngwovvmGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwovvmGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1047,7 +1089,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwovvmTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwovvmGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwovvmStopTrap trap received ngwovvmTrapTime=%parm[#1]%
-            ngwovvmGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwovvmGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1071,7 +1114,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwovvmTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwovvmGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwovvmRestartTrap trap received ngwovvmTrapTime=%parm[#1]%
-            ngwovvmGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwovvmGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1095,7 +1139,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwovvmTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwovvmGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwovvmGroupWiseLinkTrap trap received
-            ngwovvmTrapTime=%parm[#1]% ngwovvmGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwovvmTrapTime=%parm[#1]% ngwovvmGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1119,7 +1164,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwovvmTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwovvmGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwovvmFgnLinkTrap trap received ngwovvmTrapTime=%parm[#1]%
-            ngwovvmGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwovvmGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <!-- End of auto generated data from MIB: GWOVVMMIB -->
@@ -1145,7 +1191,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwPAGERTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwPAGERGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwPAGERStartTrap trap received gwPAGERTrapTime=%parm[#1]%
-            gwPAGERGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwPAGERGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1169,7 +1216,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwPAGERTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwPAGERGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwPAGERStopTrap trap received gwPAGERTrapTime=%parm[#1]%
-            gwPAGERGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwPAGERGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1193,7 +1241,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwPAGERTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwPAGERGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwPAGERRestartTrap trap received gwPAGERTrapTime=%parm[#1]%
-            gwPAGERGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwPAGERGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1217,7 +1266,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwPAGERTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwPAGERGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwPAGERGroupWiseLinkTrap trap received
-            gwPAGERTrapTime=%parm[#1]% gwPAGERGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwPAGERTrapTime=%parm[#1]% gwPAGERGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1241,7 +1291,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwPAGERTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwPAGERGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwPAGERFgnLinkTrap trap received gwPAGERTrapTime=%parm[#1]%
-            gwPAGERGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwPAGERGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <!-- End of auto generated data from MIB: GWPAGERMIB -->
@@ -1267,7 +1318,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;poaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;poaPostOfficeName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;poaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: poaStartTrap trap received poaTrapTime=%parm[#1]%
-            poaPostOfficeName=%parm[#2]% poaGUID=%parm[#3]%&lt;/p&gt;</logmsg>
+            poaPostOfficeName=%parm[#2]% poaGUID=%parm[#3]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1291,7 +1343,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;poaTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;poaPostOfficeName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;poaGUID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: poaShutdownTrap trap received poaTrapTime=%parm[#1]%
-            poaPostOfficeName=%parm[#2]% poaGUID=%parm[#3]%&lt;/p&gt;</logmsg>
+            poaPostOfficeName=%parm[#2]% poaGUID=%parm[#3]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <!-- End of auto generated data from MIB: GWPOA-MIB -->
@@ -1317,7 +1370,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpStartTrap trap received gwsmtpTrapTime=%parm[#1]%
-            gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1341,7 +1395,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpStopTrap trap received gwsmtpTrapTime=%parm[#1]%
-            gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1365,7 +1420,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpRestartTrap trap received gwsmtpTrapTime=%parm[#1]%
-            gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1389,7 +1445,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpGroupWiseLinkTrap trap received
-            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1413,7 +1470,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpMovedToProbTrap trap received
-            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1437,7 +1495,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpWpcsoutThreshTrap trap received
-            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1461,7 +1520,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpWpcsinThreshTrap trap received
-            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1485,7 +1545,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpGwholdThreshTrap trap received
-            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1509,7 +1570,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpGwprobThreshTrap trap received
-            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1533,7 +1595,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpInSizeThreshTrap trap received
-            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1557,7 +1620,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpOutSizeThreshTrap trap received
-            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1581,7 +1645,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpReadErrorTrap trap received gwsmtpTrapTime=%parm[#1]%
-            gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1605,7 +1670,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpWriteErrorTrap trap received
-            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1629,7 +1695,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpSendThreshTrap trap received
-            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1653,7 +1720,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpReceiveThreshTrap trap received
-            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1677,7 +1745,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;gwsmtpGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: gwsmtpDeferThreshTrap trap received
-            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            gwsmtpTrapTime=%parm[#1]% gwsmtpGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <!-- End of auto generated data from MIB: GWSMTPMIB -->
@@ -1703,7 +1772,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwsnadsTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwsnadsGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwsnadsStartTrap trap received ngwsnadsTrapTime=%parm[#1]%
-            ngwsnadsGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwsnadsGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1727,7 +1797,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwsnadsTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwsnadsGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwsnadsStopTrap trap received ngwsnadsTrapTime=%parm[#1]%
-            ngwsnadsGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwsnadsGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1751,7 +1822,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwsnadsTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwsnadsGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwsnadsRestartTrap trap received
-            ngwsnadsTrapTime=%parm[#1]% ngwsnadsGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwsnadsTrapTime=%parm[#1]% ngwsnadsGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1775,7 +1847,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwsnadsTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwsnadsGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwsnadsGroupWiseLinkTrap trap received
-            ngwsnadsTrapTime=%parm[#1]% ngwsnadsGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwsnadsTrapTime=%parm[#1]% ngwsnadsGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1799,7 +1872,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwsnadsTrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwsnadsGatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwsnadsFgnLinkTrap trap received
-            ngwsnadsTrapTime=%parm[#1]% ngwsnadsGatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwsnadsTrapTime=%parm[#1]% ngwsnadsGatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <!-- End of auto generated data from MIB: GWSNADSMIB -->
@@ -1825,7 +1899,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwx400TrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwx400GatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwx400StartTrap trap received ngwx400TrapTime=%parm[#1]%
-            ngwx400GatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwx400GatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1849,7 +1924,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwx400TrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwx400GatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwx400StopTrap trap received ngwx400TrapTime=%parm[#1]%
-            ngwx400GatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwx400GatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1873,7 +1949,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwx400TrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwx400GatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwx400RestartTrap trap received ngwx400TrapTime=%parm[#1]%
-            ngwx400GatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwx400GatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1897,7 +1974,8 @@
             &lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwx400TrapTime&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ngwx400GatewayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
         </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;Groupwise Event: ngwx400GroupWiseLinkTrap trap received
-            ngwx400TrapTime=%parm[#1]% ngwx400GatewayName=%parm[#2]%&lt;/p&gt;</logmsg>
+            ngwx400TrapTime=%parm[#1]% ngwx400GatewayName=%parm[#2]%&lt;/p&gt;
+        </logmsg>
         <severity>Indeterminate</severity>
     </event>
     <!-- End of auto generated data from MIB: NGWX400MIB -->
